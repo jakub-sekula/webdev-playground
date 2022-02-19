@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    
+    <link href="http://fonts.cdnfonts.com/css/campton" rel="stylesheet" />
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+  </head>
+  <body>
+
+ <template id="full-card-template">
+    <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+      <div id="preview-card-left">Card title</div>
+      <div id="preview-card-right" class="ba-flex ba-column">
+        <p id="preview-card-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh finibus, sodales quam in, pulvinar neque. Nam eget pharetra sem. Vestibulum placerat sem metus, non posuere ex varius ut. Quisque libero felis, varius ac neque id, scelerisque tristique metus. Praesent varius nunc a orci euismod, vitae vulputate orci efficitur.
+        </p>
+        <ul id="preview-card-list" class="ba-reset ba-flex ba-column ba-feature-list">
+          
+        </ul>
+      </div>
+      <button class="remove-card-btn" type='button'>X</button>
+    </div>
+  </template>
+
+  <template id="list-item-template">
+    <li class="ba-flex">
+      <img src="./akar-icons_circle-check.svg" />
+       <span>Setting up the WordPress CMS</span>
+    </li>
+  </template>
+    
+    <!-- Website cards JSON generator -->
+
+    <section id="json-generator-container" class="ba ba-page-wrapper ba-flex ba-column">
+      <div id="json-generator-upper" class="ba-flex">
+        <div>
+          <form class="ba-flex ba-column">
+          <label for="option-title">Option title</label>
+          <input id="option-title" type="text">
+          <label for="option-description">Option description</label>
+          <input id="option-description" type="text">
+          <label for="list-item-input">Add list item</label>
+          <textarea id="list-item-input" type="text"></textarea>
+          <!-- <button id="add-list-item" type='button'>Add list item</button> -->
+          <button id="add-card" type='button'>Add card</button>
+        </form>
+      </div>
+        <!-- JSON output will be displayed here -->
+        <div id="code-output-container">
+        <h2 class="ba-feature-cards-title">JSON output</h2>
+        <button id="copy-output-button" type='button'">Copy output</button>
+        <pre><code>
+        </code></pre>
+        </div>
+        </code>
+      </div>
+      <div id="json-generator-preview" class="ba-flex ba-column">
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

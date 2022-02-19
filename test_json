@@ -1,0 +1,143 @@
+{
+  "included-features-with-descriptions": [
+    {
+      "title": "Domain name selection",
+      "body": "We will help you select and link a custom domain to your website. If you already have your own domain, we will transfer it to the new site, otherwise we will purchase a domain for you and maintain it for 12 months.",
+      "bullets": []
+    },
+    {
+      "title": "Initial website setup",
+      "body": "We will professionally set up your website in accordance to the latest web standards.",
+      "bullets": [
+        "Setting up the WordPress CMS",
+        "Entering information provided by the customer on up to 10 pages",
+        "Choosing the site colours and photos",
+        "Responsive web design - site optimised for desktops and smartphones",
+        "Integration with Google services (Maps, Analytics, reCaptcha)",
+        "Contact form",
+        "Integration with Facebook (share buttons, publish to Facebook, Like buttons)"
+      ]
+    },
+    {
+      "title": "WordPress CMS",
+      "body": "WordPress is a CMS (Content Management System) that allows you to make changes to your website without the help of a professional developer. You can use it to post articles, update information and even add custom functionality to your website.",
+      "bullets": [
+        "Manage the site content yourself",
+        "Add unlimited custom pages",
+        "Edit page content and appearance",
+        "Add photos, galleries, files, videos",
+        "Administrator console"
+      ]
+    },
+    {
+      "title": "12 months of support",
+      "body": "We will provide ongoing support for the first 12 months after your site goes live.",
+      "bullets": [
+        "12 months of free WordPress security updates",
+        "Technical support",
+        "12 months of hosting on a high quality server",
+        "Daily site backups",
+        "Free access to the WordPress CMS instruction manuals"
+      ]
+    },
+    {
+      "title": "Custom email account",
+      "body": "A company email address helps build your brand image and instills trust and professionalism.",
+      "bullets": [
+        "1 custom email address on your own domain (e.g. hello@yoursite.com)"
+      ]
+    },
+    {
+      "title": "Standard visual theme",
+      "body": "Configure the look and feel of your website by combining our pre-built components.",
+      "bullets": [
+        "Responsive web design (looks good on desktop and mobile)",
+        "Choose the appearance of your home page",
+        "Choose your own colour palette",
+        "Choose from 5 website fonts",
+        "Choose home page sections"
+      ]
+    },
+    {
+      "title": "SSL certificate",
+      "body": "We will implement a SSL certificate on your website which will be valid for 1 year. A certificate is recommended for search engine optimisation purposes as well as to ensure compliance with the GDPR (it ensures that all customer data is encrypted).",
+      "bullets": []
+    }
+  ],
+  "feature-highlights": [
+    "Domain name selection",
+    "Wordpress CMS",
+    "Standard visual theme",
+    "Google Analytics setup",
+    "Social media integration",
+    "Google services integration",
+    "10 custom pages",
+    "SEO analysis",
+    "Custom theme and images",
+    "SSL certificate included",
+    "Custom email account",
+    "12 months of support"
+  ],
+  "additional-features-with-descriptions": [
+    {
+        "title": "Blog / news section",
+        "price": "£49",
+        "type": "single",
+        "body": "A dedicated section on your site for you to post news, updates or articles. Writing valuable content for your own blog is a great way to naturally improve your search engine ranking and trustworthiness.",
+        "bullets": [
+          "Choose your own colour palette",
+          "Change the website fonts",
+          "Add custom sections to the homepage",
+          "Higher quality theme with more features"
+        ]
+    },
+    {
+        "title": "Blog / news section",
+        "price": "£49",
+        "type": "single",
+        "body": "A dedicated section on your site for you to post news, updates or articles. Writing valuable content for your own blog is a great way to naturally improve your search engine ranking and trustworthiness.",
+        "bullets": [
+          "Choose your own colour palette",
+          "Change the website fonts",
+          "Add custom sections to the homepage",
+          "Higher quality theme with more features"
+        ]
+    },
+    {
+        "title": "Blog / news section",
+        "price": "£49",
+        "type": "single",
+        "body": "A dedicated section on your site for you to post news, updates or articles. Writing valuable content for your own blog is a great way to naturally improve your search engine ranking and trustworthiness.",
+        "bullets": [
+          "Choose your own colour palette",
+          "Change the website fonts",
+          "Add custom sections to the homepage",
+          "Higher quality theme with more features"
+        ]
+    },
+    {
+        "title": "Blog / news section",
+        "price": "£49",
+        "type": "single",
+        "body": "A dedicated section on your site for you to post news, updates or articles. Writing valuable content for your own blog is a great way to naturally improve your search engine ranking and trustworthiness.",
+        "bullets": [
+          "Choose your own colour palette",
+          "Change the website fonts",
+          "Add custom sections to the homepage",
+          "Higher quality theme with more features"
+        ]
+    },
+    {
+        "title": "Blog / news section",
+        "price": "£49",
+        "type": "single",
+        "body": "A dedicated section on your site for you to post news, updates or articles. Writing valuable content for your own blog is a great way to naturally improve your search engine ranking and trustworthiness.",
+        "bullets": [
+          "Choose your own colour palette",
+          "Change the website fonts",
+          "Add custom sections to the homepage",
+          "Higher quality theme with more features"
+        ]
+    }
+  ]
+}

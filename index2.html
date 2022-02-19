@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    
+    <link href="http://fonts.cdnfonts.com/css/campton" rel="stylesheet" />
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+
+  </head>
+  <body>
+    <section
+      style="margin-bottom: 100px"
+      id="page-header"
+      class="ba ba-hero ba-page-wrapper ba-grid ba-center"
+    >
+      <div class="ba-hero-text">
+        <h1 class="ba-large-heading ba-blue">
+          Professional web design services
+        </h1>
+        <p>
+          We have 10 years of experience in designing beautiful websites. Choose
+          from a range or packages suited for any budget and grow your business
+          online.
+        </p>
+      </div>
+      <div class="ba-hero-image"></div>
+    </section>
+    <section
+      id="product-header"
+      class="ba ba-page-wrapper ba-column ba-grid ba-grid-2cols ba-product-header"
+    >
+      <div class="ba-flex ba-column">
+        <div class="ba-flex ba-column">
+          <h1 id="product-name" class="ba-product-title ba-blue">
+            Standard website
+          </h1>
+          <p>
+            A stunning modern website for your business. Make yourself visible
+            online without breaking the bank.
+          </p>
+        </div>
+        <div class="ba-product-pricing ba-flex ba-column">
+          <h1 class="ba-pricetag">£999</h1>
+          <div class="ba-infobox">Lead time: 7 to 10 working days</div>
+        </div>
+        <div class="ba-product-highlights ba-flex ba-column">
+          <h4>At a glance:</h4>
+          <ul class="ba-reset ba-wrapped-list ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Domain name selection
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Wordpress CMS
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Standard visual theme
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Google Analytics setup
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Social media
+              integration
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Google services
+              integration
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />10 custom pages
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />SEO analysis
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Custom theme and images
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />SSL certificate
+              included
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />Custom email account
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" />12 months of support
+            </li>
+          </ul>
+        </div>
+        <div class="ba-flex ba-buttons-wrapper">
+          <button class="ba-button ba-primary ba-blue">Add to basket</button>
+          <button class="ba-button ba-secondary ba-blue">Add extras</button>
+        </div>
+      </div>
+      <div class="ba-product-images">
+        <img src="./image.png" />
+      </div>
+    </section>
+
+    <section
+      class="ba ba-page-wrapper ba-flex ba-column ba-centre ba-rich-text"
+    >
+      <h2 class="ba-large-heading ba-blue">Check out our other packages too</h2>
+      <p>
+        Pick an option and add it to basket. We will be in touch as soon as
+        possible to discuss more details about your website.
+      </p>
+    </section>
+ <template id="full-card-template">
+    <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+      <div id="preview-card-left">Card title</div>
+      <div id="preview-card-right" class="ba-flex ba-column">
+        <p id="preview-card-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh finibus, sodales quam in, pulvinar neque. Nam eget pharetra sem. Vestibulum placerat sem metus, non posuere ex varius ut. Quisque libero felis, varius ac neque id, scelerisque tristique metus. Praesent varius nunc a orci euismod, vitae vulputate orci efficitur.
+        </p>
+        <ul id="preview-card-list" class="ba-reset ba-flex ba-column ba-feature-list">
+          
+        </ul>
+      </div>
+      <button class="remove-card-btn" type='button'>X</button>
+    </div>
+  </template>
+
+  <template id="list-item-template">
+    <li class="ba-flex">
+      <img src="./akar-icons_circle-check.svg" />
+      <span>Setting up the WordPress CMS</span><button class="remove-list-item-btn">X</button>
+    </li>
+  </template>
+    <section
+      id="ba-additional-options"
+      class="ba ba-page-wrapper ba-flex ba-column"
+    >
+      <h2 class="ba-feature-cards-title">Additional options:</h2>
+      <div class="ba-card ba-flex ba-feature-card">
+        <div class="ba-flex ba-column">
+          <span>Blog/news section</span>
+          <h1 class="ba-pricetag">£49</h1>
+          <div class="ba-checkbox-with-label ba-flex">
+            Add to order
+            <label class="ba-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="ba-slider round"></div>
+            </label>
+          </div>
+        </div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            A dedicated section on your site for you to post news, updates or
+            articles. Writing valuable content for your own blog is a great way
+            to naturally improve your search engine ranking and trustworthiness.
+          </p>
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Setting up the WordPress CMS</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Entering information provided by the customer on up to 10
+                pages</span
+              >
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choosing the site colours and photos</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Responsive web design - site optimised for desktops and
+                smartphones</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Integration with Google services (Maps, Analytics,
+                reCaptcha)</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Contact form</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Integration with Facebook (share buttons, publish to Facebook,
+                Like buttons)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+    
+    <!-- Website cards JSON generator -->
+
+     <section
+      id="ba-included-options"
+      class="ba ba-page-wrapper ba-flex ba-column"
+    >
+      <h2 class="ba-feature-cards-title">Included options:</h2>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>Domain name selection</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            We will help you select and link a custom domain to your website. If
+            you already have your own domain, we will transfer it to the new
+            site, otherwise we will purchase a domain for you and maintain it
+            for 12 months.
+          </p>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>Initial website setup</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            We will professionally set up your website in accordance to the
+            latest web standards.
+          </p>
+
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Setting up the WordPress CMS</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Entering information provided by the customer on up to 10
+                pages</span
+              >
+            </li>
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choosing the site colours and photos</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Responsive web design - site optimised for desktops and
+                smartphones</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Integration with Google services (Maps, Analytics,
+                reCaptcha)</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Contact form</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Integration with Facebook (share buttons, publish to Facebook,
+                Like buttons)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>WordPress CMS</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            WordPress is a CMS (Content Management System) that allows you to
+            make changes to your website without the help of a professional
+            developer. You can use it to post articles, update information and
+            even add custom functionality to your website.
+          </p>
+
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Manage the site content yourself</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Add unlimited custom pages</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Edit page content and appearance</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Add photos, galleries, files, videos</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Administrator console</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>12 months of support</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            We will provide ongoing support for the first 12 months after your
+            site goes live.
+          </p>
+
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >12 months of free WordPress security updates</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Technical support</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >12 months of hosting on a high quality server</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Daily site backups</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Free access to the WordPress CMS instruction manuals</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>Custom email account</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            A company email address helps build your brand image and instills
+            trust and professionalism.
+          </p>
+
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >1 custom email address on your own domain (e.g.
+                hello@yoursite.com)</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>Standard visual theme</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            Configure the look and feel of your website by combining our
+            pre-built components.
+          </p>
+
+          <ul class="ba-reset ba-flex ba-column ba-feature-list">
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Responsive web design (looks good on desktop and mobile)</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choose the appearance of your home page</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choose your own colour palette</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choose from 5 website fonts</span
+              >
+            </li>
+
+            <li class="ba-flex">
+              <img src="./akar-icons_circle-check.svg" /><span
+                >Choose home page sections</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
+        <div>SSL certificate</div>
+
+        <div class="ba-flex ba-column">
+          <p>
+            We will implement a SSL certificate on your website which will be
+            valid for 1 year. A certificate is recommended for search engine
+            optimisation purposes as well as to ensure compliance with the GDPR
+            (it ensures that all customer data is encrypted).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="other-tiers" class="ba ba-page-wrapper ba-wrap ba-flex">
+      <div class="ba-flex ba-column ba-card ba-one-third">
+        <div class="ba-infobox ba-push-right">up to £1300</div>
+
+        <div class="ba-flex ba-column">
+          <h3 class="ba-card-title">Standard website</h3>
+          <p>Includes all features from the basic plan and more</p>
+        </div>
+
+        <h1 class="ba-pricetag">£999</h1>
+        <div class="ba-infobox ba-push-left">
+          Lead time: 10 to 14 working days
+        </div>
+
+        <ul class="ba-reset ba-flex ba-column ba-feature-list">
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+        </ul>
+
+        <button class="ba-button ba-primary ba-blue">Learn more</button>
+      </div>
+      <div class="ba-flex ba-column ba-card ba-one-third ba-highlighted">
+        <span class="ba-promo">Most popular</span>
+
+        <div class="ba-infobox ba-push-right">up to £1300</div>
+
+        <div class="ba-flex ba-column">
+          <h3 class="ba-card-title">Standard website</h3>
+          <p>Includes all features from the basic plan and more</p>
+        </div>
+
+        <h1 class="ba-pricetag">£999</h1>
+        <div class="ba-infobox ba-push-left">
+          Lead time: 10 to 14 working days
+        </div>
+
+        <ul class="ba-reset ba-flex ba-column ba-feature-list">
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+        </ul>
+
+        <button class="ba-button ba-primary ba-blue">Learn more</button>
+      </div>
+      <div class="ba-flex ba-column ba-card ba-one-third">
+        <div class="ba-infobox ba-push-right">up to £1300</div>
+
+        <div class="ba-flex ba-column">
+          <h3 class="ba-card-title">Standard website</h3>
+          <p>Includes all features from the basic plan and more</p>
+        </div>
+
+        <h1 class="ba-pricetag">£999</h1>
+        <div class="ba-infobox ba-push-left">
+          Lead time: 10 to 14 working days
+        </div>
+
+        <ul class="ba-reset ba-flex ba-column ba-feature-list">
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+        </ul>
+
+        <button class="ba-button ba-primary ba-blue">Learn more</button>
+      </div>
+      <div class="ba-flex ba-column ba-card ba-one-third">
+        <div class="ba-infobox ba-push-right">up to £1300</div>
+
+        <div class="ba-flex ba-column">
+          <h3 class="ba-card-title">Standard website</h3>
+          <p>Includes all features from the basic plan and more</p>
+        </div>
+
+        <h1 class="ba-pricetag">£999</h1>
+        <div class="ba-infobox ba-push-left">
+          Lead time: 10 to 14 working days
+        </div>
+
+        <ul class="ba-reset ba-flex ba-column ba-feature-list">
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+        </ul>
+
+        <button class="ba-button ba-primary ba-blue">Learn more</button>
+      </div>
+      <div class="ba-flex ba-column ba-card ba-one-third">
+        <div class="ba-infobox ba-push-right">up to £1300</div>
+
+        <div class="ba-flex ba-column">
+          <h3 class="ba-card-title">Standard website</h3>
+          <p>Includes all features from the basic plan and more</p>
+        </div>
+
+        <h1 class="ba-pricetag">£999</h1>
+        <div class="ba-infobox ba-push-left">
+          Lead time: 10 to 14 working days
+        </div>
+
+        <ul class="ba-reset ba-flex ba-column ba-feature-list">
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+          <li class="ba-flex">
+            <img src="./akar-icons_circle-check.svg" /><span
+              >Put product highlights here</span
+            >
+          </li>
+        </ul>
+
+        <button class="ba-button ba-primary ba-blue">Learn more</button>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
