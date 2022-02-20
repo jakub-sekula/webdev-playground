@@ -16,16 +16,19 @@
 
  <template id="full-card-template">
     <div class="ba-card ba-flex ba-feature-card ba-highlight-green">
-      <div id="preview-card-left">Card title</div>
-      <div id="preview-card-right" class="ba-flex ba-column">
-        <p id="preview-card-description">
+      <div data-name="card-left">Card title</div>
+      <div data-name="card-right" class="ba-flex ba-column">
+        <p data-name="card-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a nibh finibus, sodales quam in, pulvinar neque. Nam eget pharetra sem. Vestibulum placerat sem metus, non posuere ex varius ut. Quisque libero felis, varius ac neque id, scelerisque tristique metus. Praesent varius nunc a orci euismod, vitae vulputate orci efficitur.
         </p>
-        <ul id="preview-card-list" class="ba-reset ba-flex ba-column ba-feature-list">
+        <ul data-name="card-list" class="ba-reset ba-flex ba-column ba-feature-list">
           
         </ul>
       </div>
-      <button class="remove-card-btn" type='button'>X</button>
+      <div class="ba-flex ba-buttons-wrapper">
+        <button class="remove-card-btn" type='button'>Delete</button>
+      <button class="edit-card-btn" type='button'>Edit</button>
+    </div>
     </div>
   </template>
 
@@ -39,9 +42,19 @@
     <!-- Website cards JSON generator -->
 
     <section id="json-generator-container" class="ba ba-page-wrapper ba-flex ba-column">
+      <div class="ba-flex ba-column">
+        <h1 class="ba-blue">JSON generator for Shopify metafields</h1>
+        <p>Use this to generate and preview in real time cards for the website product pages.</p>
+      </div>
       <div id="json-generator-upper" class="ba-flex">
         <div>
           <form class="ba-flex ba-column">
+          <label for="option-type">Type</label>
+          <select id="option-type">
+            <option value=””>Included feature card</option>
+            <option value=””>Additional feature card</option>
+            <option value=””>Feature highlights</option>
+            </select>
           <label for="option-title">Option title</label>
           <input id="option-title" type="text">
           <label for="option-description">Option description</label>
@@ -49,19 +62,23 @@
           <label for="list-item-input">Add list item</label>
           <textarea id="list-item-input" type="text"></textarea>
           <!-- <button id="add-list-item" type='button'>Add list item</button> -->
-          <button id="add-card" type='button'>Add card</button>
+          <button id="add-card" class="ba-button ba-blue ba-primary ba-full-width ba-push-down" type='button'>Add card</button>
         </form>
       </div>
         <!-- JSON output will be displayed here -->
-        <div id="code-output-container">
-        <h2 class="ba-feature-cards-title">JSON output</h2>
-        <button id="copy-output-button" type='button'">Copy output</button>
-        <pre><code>
-        </code></pre>
+        <div id="code-output-container" class="ba-flex ba-column">
+          <h3 class="ba-feature-cards-title">JSON output</h3>
+          <p>Simply copy and paste this code to the Shopify metafields section.</p>
+          <button id="copy-output-button" class="ba-button ba-secondary ba-blue ba-push-down" type='button'">Copy</button>
+          <pre><code>
+          </code></pre>
+          
         </div>
         </code>
       </div>
+      <h3>Live preview</h3>
       <div id="json-generator-preview" class="ba-flex ba-column">
+      
       </div>
     </section>
 
