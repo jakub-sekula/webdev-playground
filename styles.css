@@ -241,7 +241,11 @@ ul.ba-reset ul li {
 
     #json-generator-upper {
         flex-direction: column-reverse;
-        gap:0;
+        gap: 0!important;;
+    }
+
+    #json-generator-container {
+        gap: 0!important;
     }
 }
 
