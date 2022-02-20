@@ -238,6 +238,11 @@ ul.ba-reset ul li {
     #ba-additional-options .ba-checkbox-with-label {
         justify-content: unset!important;
     }
+
+    #json-generator-upper {
+        flex-direction: column-reverse;
+        gap:0;
+    }
 }
 
 /* Product header classes */
